@@ -37,7 +37,6 @@ const initChart = () => {
     // 获取容器尺寸
     const containerWidth = chartDom.value?.offsetWidth || 0;
     const containerHeight = chartDom.value?.offsetHeight || 0;
-
     const option: EChartsOption = {
         graphic: {
             type: 'image',
